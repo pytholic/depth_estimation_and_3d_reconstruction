@@ -25,3 +25,5 @@ Open **jupyter notebook** and run `main.ipynb` step by step for 3D reconstructio
 
 # Notes
 You will need **camera intrinsics matrix** for this to work. You can calobrate your camera to get the matrix, or you can use some libraries like [COLMAP](https://github.com/colmap/colmap) to get it. I did both. I calibrated to get the matrix, and also used `COLMAP` parts from the **instant-ngp** [github](https://github.com/NVlabs/instant-ngp) to get the camera intrinsics.
+
+If you download the `model` manually, then you can load it in the main code using `torch.load()` function.
